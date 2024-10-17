@@ -1,3 +1,81 @@
-h1{
-    color:crimson
+.content {
+    padding-top: 15px;
+    background-color: lightblue;
+    border-bottom: 3px solid pink; 
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.text-right {
+    text-align: right; 
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col {
+    flex: 1;
+    padding: 10px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.col a {
+    color: white;
+    text-decoration: none;
+}
+
+.col a:hover {
+    color: pink;
+    text-decoration: underline;
+}
+
+.col-lg-6 {
+    text-align: center; 
+}
+
+h1 {
+    color: purple;
+    padding: 15px;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    margin: 0; 
+}
+
+.subtitle {
+    font-size: 24px; 
+    text-align: center; 
+    margin-top: 10px; 
+    color: purple;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: ivory;
+}
+
+.social-media-icons {
+    text-align: center; 
+    margin-top: 10px; 
+}
+
+.profile-container {
+    border: 3px solid; 
+    color: pink;
+    padding: 20px; 
+    margin: 20px 0; 
+    text-align: center; 
+}
+
+.underline {
+    text-decoration: underline;
 }
