@@ -79,3 +79,13 @@ body {
 .underline {
     text-decoration: underline;
 }
+
+.links {
+    text-align: center; 
+    margin: 20px 0; 
+}
+
+.links a {
+    display: block; 
+    margin: 5px 0; 
+}
